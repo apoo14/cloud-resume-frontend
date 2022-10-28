@@ -17,6 +17,8 @@
   background-color: rgba(0,0,0, 0.4);
   padding: 10px;
   top: 50px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .card-content {
@@ -46,14 +48,16 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: #101214;
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0,0.4); /* Black w/opacity/see-through */
 }
 
 .bg-image{
     background-image: url('/assets/img/background.jpg');
+    /* background-color: #323F4B; */
+    /* background-color: #3C324B; */
     background-position: fixed;
     background-repeat: repeat;
-    background-size: 5184px 3456px;
+    background-size: cover;
     background-attachment: fixed;
 }
 
