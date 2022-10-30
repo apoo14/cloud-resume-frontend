@@ -59,7 +59,7 @@ body{
     -o-background-size: cover;
 
     background-position: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
